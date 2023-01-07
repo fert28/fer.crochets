@@ -11,6 +11,10 @@
                 <img src="/images/fer.crochets.png" alt="" />
             </div>
 
+        <p class="text-lg text-emerald-600 animate-bounce">Presiona la pantalla para continuar</p>
+            
+            <br> <br>
+
             <div class="full-screen lg:block hidden" id="myProgress">
                 <div id="myBar"></div>
             </div>
@@ -50,7 +54,7 @@
 #myBar {
     width: 10%;
     height: 30px;
-    background: #6DCDB9;
+    background: #A9DFBF;
     border-radius: 28px;
     text-align: center;
     line-height: 30px;
@@ -79,5 +83,8 @@
     100% {
         width: 100%;
     }
+}
+.text-lg {
+    font-family: 'Poppins', sans-serif;
 }
 </style>
