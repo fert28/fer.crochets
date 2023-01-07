@@ -1,7 +1,6 @@
 <script setup>
 import AppHeader from "../../Layouts/AppHeader.vue";
 import CHero from "./CHero.vue";
-import CEjemplo from "./CEjemplo.vue";
 </script>
 <template>
     <link
@@ -12,7 +11,6 @@ import CEjemplo from "./CEjemplo.vue";
         <div>
             <AppHeader />
             <CHero />
-            <CEjemplo/>
         </div>
     </section>
 </template>

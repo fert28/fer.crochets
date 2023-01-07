@@ -7,13 +7,19 @@
         <div
             class="bg-green-100 text-zinc-900 flex-none w-full flex flex-col items-center justify-center"
         >
-            <div class="text-7xl">
+            <div class="d-block">
                 <img src="/images/fer.crochets.png" alt="" />
             </div>
 
-        <p class="text-lg text-emerald-600 animate-bounce">Presiona la pantalla para continuar</p>
-            
-            <br> <br>
+            <p
+                class="lg:block hidden text-lg text-emerald-600 animate-bounce mb-12"
+            >
+                Presiona la pantalla para continuar
+            </p>
+
+            <p class="lg:hidden text-base text-emerald-600 animate-bounce mb-8">
+                Presiona la pantalla para continuar
+            </p>
 
             <div class="full-screen lg:block hidden" id="myProgress">
                 <div id="myBar"></div>
@@ -22,7 +28,6 @@
             <div class="phone-screen lg:hidden" id="myProgress">
                 <div id="myBar"></div>
             </div>
-
         </div>
     </a>
 </template>
@@ -54,7 +59,7 @@
 #myBar {
     width: 10%;
     height: 30px;
-    background: #A9DFBF;
+    background: #a9dfbf;
     border-radius: 28px;
     text-align: center;
     line-height: 30px;
@@ -85,6 +90,6 @@
     }
 }
 .text-lg {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 </style>
